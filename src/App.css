@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 4px 8px;
+    background-color: cyan;
+    color:orangered;
+    border-radius: 4px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    margin: 8px 4px;
+    gap: 10px;
+}

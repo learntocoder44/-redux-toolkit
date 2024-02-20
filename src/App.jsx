@@ -8,11 +8,11 @@ function App() {
   const dispatch=useDispatch();
 
   return (
-    <>
+    <div className='container'>
         <h1>this is a react project:{count}</h1>
         <button onClick={()=>dispatch(add())}>add</button>
         <button onClick={()=>dispatch(remove())}>remove</button>
-    </>
+    </div>
   )
 }
 
